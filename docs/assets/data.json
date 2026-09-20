@@ -1,0 +1,43 @@
+{
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/1amj29A-YdAXQu18PipfgJ6biylaUhYLBxNiP4PpzW5g/pubhtml",
+    "data_column_name": "US Unemployment Rate",
+    "datetime_format": "%m/%d/%y",
+    "datetime_column_name": "date"
+  },
+  "chart": {
+    "datetime_format": "%y",
+    "y_axis_label": "Unemployment"
+  },
+  "slider": {
+    "start_at_card": 0,
+    "cards": [
+      {
+        "display_date": "January 10, 1990",
+        "title": "0: Pentagon Militarizes Local Police Departments",
+        "text": "The pentagon has calculated that the equipment received in 2006 cost around $5 million. Federal initiatives to provide funding and equipment to police.",
+        "row_number": 5
+      },
+      {
+        "title": "1: Some More Important Text Will Go Here",
+        "text": "The pentagon has calculated that the equipment received in 2006 cost around $5million. Federal initiatives to provide funding and equipment to police",
+        "row_number": 15
+      },
+      {
+        "title": "2: Example Title Three",
+        "text": "The pentagon has calculated that the equipment received in 2006 cost around $5million. Federal initiatives to provide funding and equipment to police",
+        "row_number": 21
+      },
+      {
+        "title": "3: Example Title Four",
+        "text": "The pentagon has calculated that the equipment received in 2006 cost around $5million. Federal initiatives to provide funding and equipment to police",
+        "row_number": 22
+      },
+      {
+        "title": "4: Example Title Five",
+        "text": "The pentagon has calculated that the equipment received in 2006 cost around $5million. Federal initiatives to provide funding and equipment to police",
+        "row_number": 23
+      }
+    ]
+  }
+}
