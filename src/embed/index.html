@@ -38,11 +38,30 @@
     <meta name="twitter:site" content="@knightlab">
     <meta name="twitter:creator" content="@knightlab">
     <!-- /Twitter Card -->
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #storyline {
+            width: 100%;
+            max-width: none;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="storyline" height="568" width="600"></div>
+    <div id="storyline" height="1000" width="600"></div>
     <script type="text/javascript">
+        var storylineContainer = document.getElementById('storyline')
+        var storylineWidth = Math.floor(storylineContainer.getBoundingClientRect().width)
+        storylineContainer.setAttribute('width', storylineWidth)
+
         var config = {
             "data": {},
             "chart": {},

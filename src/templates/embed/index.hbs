@@ -70,7 +70,12 @@
                 config[Object.keys(config)[configKey]][mapURLParams[value[0]]] = decodeURIComponent(value[1]);
             }
         })
-        config['proxy'] = '{{ proxy_url }}'
+        if (
+            config.data.url &&
+            config.data.url.indexOf('https://docs.google.com/') === 0
+        ) {
+            config['proxy'] = '{{ proxy_url }}';
+        }
         window.storyline = new Storyline('storyline', config);
     </script>
 </body>

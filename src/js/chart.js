@@ -161,7 +161,7 @@ Chart.prototype = {
       markerElem.setAttribute('class', 'marker-' + marker.markerCount);
       textElem.setAttribute('class', 'text-' + marker.markerCount);
 
-      markerElem.appendChild(connector);
+   // markerElem.appendChild(connector);
       markerElem.appendChild(circle);
       textElem.appendChild(text);
 
