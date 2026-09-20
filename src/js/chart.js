@@ -257,7 +257,9 @@ Chart.prototype = {
    lineEl.setAttribute('d', this.aggregatePoints());
    lineEl.setAttribute('stroke', 'grey');
    lineEl.setAttribute('fill', 'none');
+   lineEl.setAttribute('class', 'storyline-main-line');
    this.elem.appendChild(lineEl);
+   
 
   },
   /**

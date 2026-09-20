@@ -96,6 +96,8 @@ a { text-decoration: none; }
 
 .storyline-wrapper .nav li.is-active { background-color: gray; width: 16px; height: 16px; margin-bottom: 0px; }
 
+.storyline-wrapper .storyline-main-line { stroke: #0378ff !important; stroke-width: 3px !important; }
+
 .storyline-wrapper svg.canvas { vertical-align: top; }
 
 .storyline-wrapper .error { padding: 10px; font-family: "Apres RE", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: bold; font-size: 17px; line-height: 1.3; color: red; display: flex; align-items: center; justify-content: center; }
