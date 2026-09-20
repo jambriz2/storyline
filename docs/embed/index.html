@@ -58,8 +58,16 @@
 <body>
 <div id="storyline" height="1000" width="600"></div>
     <script type="text/javascript">
-        var storylineContainer = document.getElementById('storyline')
-        var storylineWidth = Math.floor(storylineContainer.getBoundingClientRect().width)
+var storylineContainer = document.getElementById('storyline')
+
+var embedParams = new URLSearchParams(window.location.search)
+var requestedHeight = parseInt(embedParams.get('storyHeight'))
+
+if (!isNaN(requestedHeight)) {
+    storylineContainer.setAttribute('height', requestedHeight)
+}
+
+var storylineWidth = Math.floor(storylineContainer.getBoundingClientRect().width)
         storylineContainer.setAttribute('width', storylineWidth)
 
         var config = {
